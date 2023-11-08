@@ -1,0 +1,23 @@
+
+.counterDesign {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 2em;
+        
+    height: 2em;
+    width: 7em;
+
+    border-radius: 1em;
+    border: solid 0.2em darkblue;
+}
+
+.counterDesign > div {
+
+    padding: 0.7em;
+
+    cursor: pointer;
+}
